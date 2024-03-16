@@ -3,6 +3,7 @@ STYLING IN REACT
     -scoping in CSS
     - css in js
     - when there is a logic
+    - styled components
     - Tailwind CSS
 
 co-locating the files to one another will make different STYLE TAGS in the head section
@@ -56,6 +57,39 @@ CSS MODULES
     - used differety we don't use it directly istead we use the
         objectName.style
 
-    - after we have done this we can still go shi
+    - after all this done two files which are interconnected like this there css classes would be renamed at the time of deplyment
+    - if we put in the same name class into any other file that won't do anything
+
+
+STYLED COMPONENTS (package)
+
+    - we make these small wrappers which we then go ahead add instead of the actaull html wrappers
+    -Little wrapper Condtitionally
+
+    -const ControlledCotainer  = styled.div`
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        `
+
+    then we go ahead and use Controlled Container as the werpper 
+
+    - they are scoped to the COMPONENT they are built in 
+
+    - we can export them as the const and then also use them in other componenets as well
+
+    DYNAMIC STYLING
+
+    we gnerally go by single method for elverything
+
+
+
+
+
+
+
     
+
+
 

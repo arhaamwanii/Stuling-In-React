@@ -15,6 +15,4 @@ you can build a lot of shit using the right api's
     you don't have to do everything from scratch
     you need to have right poeple aroudn you so that you can deligate
 
-vercel has made shit simpler
 
-    
