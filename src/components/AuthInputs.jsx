@@ -27,7 +27,7 @@ width: 100%;
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 `
-const Button = styled.input`
+const Button = styled.button`
 padding: 1rem 2rem;
 font-weight: 600;
 text-transform: uppercase;
@@ -36,7 +36,7 @@ color: #1f2937;
 background-color: #f0b322;
 border-radius: 6px;
 border: none;
-display: ${(({checked}) => checked ? "none" : undefined )}
+display: ${({checked}) => checked ? "none" : "flex" }
 `
 
 export default function AuthInputs() {
@@ -84,11 +84,13 @@ export default function AuthInputs() {
         </p>
         </ControlledCotainer>
       <div className="actions">
-        <Button type="button" className="text-button" style={{ }}>
+        <Button checked={emailNotValid} type="button" className="text-button" >
           Create a new account
         </Button>
-        <Button check={passwordNotValid} className='button' onClick={handleLogin}>Sign In</Button>
+        <Button  className='button' onClick={handleLogin}>Sign In</Button>
       </div>
     </div>
   );
 }
+
+

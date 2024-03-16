@@ -94,6 +94,20 @@ STYLED COMPONENTS (package)
     - these prop name must not cash with the inbuilt prop names
 
 
+    MEDIA QUERRIES AND PDEUSDOCOMPONENTS: like hover
+
+    you don't need to convert the every minor element into styling comonent 
+    - convert the wrapping elements then after 
+    - use the syntaz of "header h1" but insted of the wrapping element naem you use "&"
+
+    MEDIA QUERRIES
+    you just put the media querrie in the styles and they will automatically detect it is the quesrry for them
+    -also  in here if you were to target inner ones use  & insted of wrapper naem 
+    
+
+
+
+
 
 
 
