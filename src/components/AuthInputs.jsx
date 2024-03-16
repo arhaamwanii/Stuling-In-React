@@ -15,17 +15,28 @@ const Label = styled.label`
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #6b7280;
+  color:${({invalid}) => invalid ? 'purple' : '#6b7280' } ;
 `
 const Input = styled.input`
 width: 100%;
   padding: 0.75rem 1rem;
   line-height: 1.5;
-  background-color: #d1d5db;
+  background-color: ${({changeInner}) => changeInner ? "#FF9999" :"white" };
   color: #374151;
   border: 1px solid transparent;
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+`
+const Button = styled.input`
+padding: 1rem 2rem;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 0.25rem;
+color: #1f2937;
+background-color: #f0b322;
+border-radius: 6px;
+border: none;
+display: ${(({checked}) => checked ? "none" : undefined )}
 `
 
 export default function AuthInputs() {
@@ -52,18 +63,20 @@ export default function AuthInputs() {
     <div id="auth-inputs">
       <ControlledCotainer>
         <p>
-          <Label>Email</Label>
+          <Label invalid={emailNotValid} >Email</Label>
           <Input
+          changeInner={emailNotValid}
             type="email"
-            className={emailNotValid ? 'invalid' : undefined}
+            // className={emailNotValid ? 'invalid' : undefined}
             onChange={(event) => handleInputChange('email', event.target.value)}
           />
         </p>
         <p>
-        <Label>Password</Label>
+        <Label invalid={emailNotValid} >Password</Label>
           <Input
+            changeInner={emailNotValid}
             type="password"
-            className={passwordNotValid ? 'invalid' : undefined}
+            // className={passwordNotValid ? 'invalid' : undefined}
             onChange={(event) =>
               handleInputChange('password', event.target.value)
             }
@@ -71,10 +84,10 @@ export default function AuthInputs() {
         </p>
         </ControlledCotainer>
       <div className="actions">
-        <button type="button" className="text-button" style={{ }}>
+        <Button type="button" className="text-button" style={{ }}>
           Create a new account
-        </button>
-        <button className='button' onClick={handleLogin}>Sign In</button>
+        </Button>
+        <Button check={passwordNotValid} className='button' onClick={handleLogin}>Sign In</Button>
       </div>
     </div>
   );

@@ -81,7 +81,19 @@ STYLED COMPONENTS (package)
 
     DYNAMIC STYLING
 
-    we gnerally go by single method for elverything
+    while naming the Const you have to make it capital -- other wise it will resemble with the : here is the thing 
+
+    inorder to style dynamically we need to use a 
+    - getting the condition/value we have to check for -  in using porps
+    - then cheking for the condition 
+    - using template lieteralls because all of this is happening inside of these backTicks
+    - inside we launch an anounymous function within that anonymous function - we will automtically reicive the props in that function we then have to use them either by de-sturcturing or using the prop attribute rename them directly 
+        
+    -- PROPERTY NAME ${(props) => props.inputCheck ? "red" : "blue"}  --
+
+    - these prop name must not cash with the inbuilt prop names
+
+
 
 
 
