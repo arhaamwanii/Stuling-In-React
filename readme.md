@@ -121,9 +121,54 @@ in case of bigger apps
         -timer will suck
 
 
-HOW TO DEBUG
+DEBUGGING
 
-    - 
+    Debugging
+    value seems to be alternative it is recieved as does recive the first element never execurte
+
+    in js if you return some thing early on inside of a if check or something that is what will be shown to the end user if the condition is fullfilled
+
+    and code after that won't be executed
+
+well be have a thing
+
+LOGICAL ERRORS
+
+    which part coud be responsible
+
+    we are going to go with session one the
+    so what - ok - seems to be related to us fetching the user all the one that are  one of the main thing
+
+    but all browswers are going to have this there is a src setup to show you - it also contains we can also place paused in debuggers
+
+    so that it brakes again that is the problim when you can one of the everything is messed up here alr we are here for one of the main thing is that we are going to do it we can see that
+
+    we are seeing long concaitendated strings
+
+    there is a src that can be used by the browser here into in the first one file it contains the
+
+    number + strings together can lead to error 
+
+REACT STRICT MODE
+    - built in component in React
+    - mainly wraps other components
+
+    - it is only applicable during the development process not after the Build
+
+    - it will execute the code twice
+
+
+REACT DEV TOOLS
+
+    - components:
+        shows you the component tree, which contains all the component
+        -can provide a ui for ehancing of state variable
+        - we can update and different state values and also different values of the props to see the chnages live the UI
+        - quick updation of all the values - for different variables and stuff
+
+    - profiler  
+        mainly used for performanace enhace
+
 
 
 
