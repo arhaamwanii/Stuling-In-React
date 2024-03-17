@@ -120,6 +120,21 @@ in case of bigger apps
     - show the timer over it 
         -timer will suck
 
+-Quick in the same
+
+TAILWIND
+    - adding a lot of small classes:
+    - you don't need to know css to use tailwind
+
+CUSTOMIZING TAILWIND
+    - cofigure the config file
+
+USING PSEUDO SELECTORS AND MEDIA QUERRIES 
+    -prefixies eg::  md:w-26 - only do width 26 when screen is middle size
+
+DYNAMIC OR CONDITIONAL STYLES - tailwind
+
+    -
 
 DEBUGGING
 
@@ -168,6 +183,18 @@ REACT DEV TOOLS
 
     - profiler  
         mainly used for performanace enhace
+
+- yaa my shi got banned completly for the same thing lol, after getting around 1.5 mil veiews(acc was either @jredaily4 or @jrerewind4)
+- that what i was saying i don't need the accessto the account i don't need the login or anything for that matter. you will just post it yourself
+- yaa its ok if you don't want to do it
+
+here is the thing everything has to be on a list that is the thing sru for keeping it short today i have to leave outside
+
+
+
+
+
+
 
 
 

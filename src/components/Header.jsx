@@ -48,13 +48,15 @@ margin-bottom: 2rem;
 
 export default function Header() {
   return (
-    <StyledHeader>
+    <header className='flex'>
       <img src={logo} alt="A canvas" />
       <h1>ReactArt</h1>
       <p>A community of artists and art-lovers.</p>
-    </StyledHeader>
+    </header>
   );
 }
+
+
 
 
 // you don't become the best version of yourself you become the lomest standard you can accept out of yourself
