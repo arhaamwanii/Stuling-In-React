@@ -132,9 +132,22 @@ CUSTOMIZING TAILWIND
 USING PSEUDO SELECTORS AND MEDIA QUERRIES 
     -prefixies eg::  md:w-26 - only do width 26 when screen is middle size
 
-DYNAMIC OR CONDITIONAL STYLES - tailwind
+PROS AND CONS
+    PROS
+    -you don't have to know tailwind
+    - memorize the most utilisty calsses
+    - styling is easy 
+    - style classes : you avoid clashes
 
-    -
+    CONS
+    -end up with large list of classes
+    -jsx and css together 
+    - end up with wrappers 
+
+DYNAMIC OR CONDITIONAL STYLES
+    - what we do is we take the class names shov them. up the ass of an variable 
+    - then we put in an if check to udate the vaiable with the new classes  and give the check an condition
+    - then we use this variable in the class name section and there we have our class name dynamically
 
 DEBUGGING
 
@@ -184,34 +197,7 @@ REACT DEV TOOLS
     - profiler  
         mainly used for performanace enhace
 
-- yaa my shi got banned completly for the same thing lol, after getting around 1.5 mil veiews(acc was either @jredaily4 or @jrerewind4)
-- that what i was saying i don't need the accessto the account i don't need the login or anything for that matter. you will just post it yourself
-- yaa its ok if you don't want to do it
 
-here is the thing everything has to be on a list that is the thing sru for keeping it short today i have to leave outside
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-    
 
 
 
