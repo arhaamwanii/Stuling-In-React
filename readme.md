@@ -102,7 +102,31 @@ STYLED COMPONENTS (package)
 
     MEDIA QUERRIES
     you just put the media querrie in the styles and they will automatically detect it is the quesrry for them
-    -also  in here if you were to target inner ones use  & insted of wrapper naem 
+    -also  in here if you were to target inner ones use  & insted of wrapper name 
+
+in case of bigger apps
+
+    - we can outsource the whole button : into an component with the styled components
+        - specially in the case of  reusable components such as button
+        -just import the component 
+        -and use it 
+
+    - export where i will return syled label here on regular function who is the main in to the main thing we are two of 
+
+    - i take the broweser url
+    - make a source and make it fit and set the quality and timming
+    - make the time match with the current one
+    - get a blank page
+    - show the timer over it 
+        -timer will suck
+
+
+HOW TO DEBUG
+
+    - 
+
+
+
     
 
 
